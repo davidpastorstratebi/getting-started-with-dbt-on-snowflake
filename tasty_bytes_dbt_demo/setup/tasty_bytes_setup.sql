@@ -8,7 +8,7 @@ CREATE OR REPLACE WAREHOUSE tasty_bytes_dbt_wh
     INITIALLY_SUSPENDED = TRUE
     COMMENT = 'warehouse for tasty bytes dbt demo';
 
-USE WAREHOUSE tasty_bytes_dbt_wh;
+USE WAREHOUSE compute_wh;
 
 CREATE DATABASE IF NOT EXISTS tasty_bytes_dbt_db;
 CREATE OR REPLACE SCHEMA tasty_bytes_dbt_db.raw;
